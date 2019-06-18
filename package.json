@@ -1,0 +1,20 @@
+{
+  "name": "@cwkong/simple_server",
+  "version": "1.0.0",
+  "description": "A simple server that runs index.html inside the current directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": {
+    "simple-server": ""
+  },
+  "author": "chaewonkong",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^12.4.0"
+  },
+  "devDependencies": {}
+}
